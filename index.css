@@ -19,6 +19,8 @@ body {
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
 }
+
+
 a {
     text-decoration: none;
     color: white;
@@ -36,6 +38,7 @@ p {
     display: flex;
     padding-left: 30px;
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 body {
     margin:0;
@@ -59,6 +62,8 @@ body {
     margin-right: 30px; */
     /* padding: 0 6rem; */
     z-index: 100;
+    background-color: rgba(255, 255, 255, 0.95);
+    
   }
 
   .mainav.sticky {
@@ -82,7 +87,7 @@ body {
   }
 
   .home {
-    font-size: 90px;
+    font-size: 5vw;
     font-weight: 500;
     color:#333
     /* padding-left: 30px; */
@@ -93,7 +98,7 @@ body {
     justify-content: flex-end;
     
     align-items: center;
-    font-size: 30px;
+    font-size: 1vw;
     float: right;
     padding-right: 30px;
   }
@@ -165,9 +170,11 @@ body {
 }
 
 .heading {
-    font-size: 60px;
+    font-size: 5vw;
+    /* min-width: 10vw; */
     float: right;
-    margin-right: 240px;
+    margin-right: 14vw;
+    display: block;
 }
 
 footer {
